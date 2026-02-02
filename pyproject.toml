@@ -1,6 +1,10 @@
 [project]
 name = "covid-pipeline"
 version = "1.0.0"
+dependencies = [
+    "pandas>=2.0",
+    "pyarrow",
+]
 
 [build-system]
 requires = ["setuptools"]
