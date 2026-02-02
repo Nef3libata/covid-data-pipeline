@@ -16,6 +16,8 @@ logger = logging.getLogger(__name__)
 
 
 def main():
+    logger.info("Starting COVID pipeline")
+
     df = ingest_covid_data()
 
     df_clean = transform_covid_data(df)
