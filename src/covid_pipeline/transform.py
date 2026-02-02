@@ -4,11 +4,12 @@ import logging
 
 import pandas as pd
 
-from quality import (
+from covid_pipeline.quality import (
     DataValidationError,
     assert_no_negative,
     check_required_non_null,
 )
+
 
 logger = logging.getLogger(__name__)
 

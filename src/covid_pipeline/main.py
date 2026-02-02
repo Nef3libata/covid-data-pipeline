@@ -1,7 +1,7 @@
 import logging
-from ingest import ingest_covid_data
-from load import load_to_sqlite, create_country_daily_summary
-from transform import transform_covid_data
+from covid_pipeline.ingest import ingest_covid_data
+from covid_pipeline.load import load_to_sqlite, create_country_daily_summary
+from covid_pipeline.transform import transform_covid_data
 from pathlib import Path
 
 
