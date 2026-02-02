@@ -1,0 +1,6 @@
+services:
+  pipeline:
+    build: .
+    volumes:
+      - ./data:/app/data
+    command: python -m covid_pipeline.main
