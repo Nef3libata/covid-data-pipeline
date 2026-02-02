@@ -1,5 +1,3 @@
 pandas>=2.0
-SQLAlchemy>=2.0
-pymysql>=1.1
+pyarrow
 pytest>=7.4
-python-dotenv>=1.0
